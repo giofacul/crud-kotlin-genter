@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:hint="@string/hint_country_name"
+            android:hint="@string/hint_client_name"
             android:layout_marginBottom="@dimen/margin_default_bottom"
             android:backgroundTint="@color/screens_primary_color"
             android:inputType="textPersonName" />
@@ -53,7 +53,6 @@
             android:id="@+id/spinnerSelectedCountry"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-
             android:background="@drawable/button_editable_primary_bg"
             />
 
