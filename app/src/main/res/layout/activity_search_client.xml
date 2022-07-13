@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_default_screens"
+    tools:context=".view.SearchClient">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar Cliente"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:backgroundTint="@color/screens_primary_color"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_editable_primary_bg"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_search_24" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
