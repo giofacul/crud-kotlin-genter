@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Aplication Gilbarco</string>
+    <string name="app_name">Gilbarco</string>
+    <string name="job_name">GILBARCO</string>
+    <string name="registration_country">Cadastrar País</string>
+    <string name="user_email_to_login">login@com.com</string>
+    <string name="user_password_to_login">12345</string>
+    <string name="hint_text_email">Digite seu Email</string>
+    <string name="hint_text_password">Digite sua Senha</string>
+    <string name="button_text_login">Fazer Login</string>
+    <string name="hint_country_name">Nome do País</string>
+    <string name="hint_country_code">Código do País</string>
+    <string name="button_add_country">Adicionar País</string>
+    <string name="button_add_client">Adicionar Cliente</string>
+    <string name="button_search_client">Pesquisar Cliente</string>
+    <string name="toast_error_email">Preencha o EMAIL</string>
+    <string name="toast_error_password">Preencha a SENHA</string>
+    <string name="hint_client_name">Nome do Cliente</string>
+    <string name="hint_client_cnpj">CNPJ</string>
+    <string name="hint_client_social">Razão Social</string>
+    <string name="selected_client_country">Selecione o País</string>
+    <string name="registration_client">Cadastrar Cliente</string>
 </resources>
