@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".LoginScreen">
+    tools:context=".view.LoginScreen">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gilbarcoimage" />
+        app:srcCompat="@drawable/gilbarco_image" />
 
 
     <TextView
@@ -95,7 +95,7 @@
         android:text="@string/button_text_login"
         android:textColor="@color/white"
         android:layout_margin="@dimen/margin_default_screens"
-        android:background="@drawable/button_editable_background"
+        android:background="@drawable/button_editable_primary_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
